@@ -1,3 +1,11 @@
+@import './../abstract/color-variables.css';
+
+.graph-menu {
+    background: var(--main-background-color);
+    grid-area: graph-menu;
+}
+
+
 .graph-individuals {
     background: teal;
     grid-area: graph-individuals;

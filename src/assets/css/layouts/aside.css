@@ -1,4 +1,6 @@
+@import './../abstract/color-variables.css';
+
 .aside {
   grid-area: aside;
-  background: red;
+  background: var(var(--main-background-color));
 }

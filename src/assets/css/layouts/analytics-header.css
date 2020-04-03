@@ -1,17 +1,13 @@
 .analytics-tops {
-    background: yellow;
+    background: var(--analytics-background-color);
     grid-area: analytics-tops;
 }
 
 .analytics-bottom {
-    background: black;
+    background: var(--analytics-background-color);
     grid-area: analytics-bottom;
 }
 
-.graph-menu {
-    background: purple;
-    grid-area: graph-menu;
-}
 
     
 

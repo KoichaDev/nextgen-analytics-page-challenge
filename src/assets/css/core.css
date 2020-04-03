@@ -39,13 +39,13 @@
  * Unique combinations of components and base styles are imported here
  * Each stylesheet contains all component style overrides, and specific layout only attributes
  */
+@import './layouts/analytics-header.css';
 @import './layouts/aside.css';
 @import './layouts/body.css';
-@import './layouts/graph.css';
+@import './layouts/graph-menu.css';
 @import './layouts/grid.css';
 @import './layouts/dropdown-window.css';
 @import './layouts/header.css';
 @import './layouts/html.css';
-@import './layouts//menu.css';
 @import './layouts/nav.css';
 @import './layouts/sign-ups.css';

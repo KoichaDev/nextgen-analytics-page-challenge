@@ -1,4 +1,6 @@
+@import './../abstract/color-variables.css';
+
 .navbar {
+  background: var(--main-background-color);
   grid-area: navbar;
-  background:green;
 }

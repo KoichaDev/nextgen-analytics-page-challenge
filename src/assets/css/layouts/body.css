@@ -1,3 +1,6 @@
+@import './../abstract/color-variables.css';
+
 body {
   margin: 0;
+  background: var(--main-background-color)
 }
