@@ -2,5 +2,5 @@
 
 .aside {
   grid-area: aside;
-  background: var(var(--main-background-color));
+  background: var(--main-background-color);
 }

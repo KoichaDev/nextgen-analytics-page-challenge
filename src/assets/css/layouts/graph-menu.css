@@ -2,6 +2,7 @@
 
 .graph-menu {
     background: var(--main-background-color);
+    color: var(--primary-text-color);
     grid-area: graph-menu;
 }
 

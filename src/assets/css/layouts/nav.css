@@ -2,5 +2,37 @@
 
 .navbar {
   background: var(--main-background-color);
+  color: var(--primary-text-color);
   grid-area: navbar;
+  padding-top: 1rem;
+  border-bottom: 3px solid var(--primary-color);
+  position: relative;
+  overflow: hidden;
+
+}
+
+.logo {
+}
+
+ul {
+  display: flex;;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+ul li {
+  padding: 0px 2.5rem;
+  align-self: center;
+}
+
+li:nth-child(1), 
+.logo {
+  margin-right: auto;
+  width: 10vw;
+
+}
+
+.half-bg {
+  background: yellow;
+  width: 1.7%;
 }

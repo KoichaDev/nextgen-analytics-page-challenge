@@ -4,11 +4,7 @@
  * Helper functions and non–output snippets only (font-face imports, reusable mixins, global variables, colors, etc.)
  * Variables for the components 
  */
-@import './abstract/animation-variables.css';
-@import './abstract/button-variables.css';
-@import './abstract/button-variables.css';
-@import './abstract/header-variables.css';
-@import './abstract/table-variables.css';
+@import './abstract/color-variables.css';
 
 /* BASE
  * Global styles are imported here
@@ -16,7 +12,6 @@
  * Typography (h1-6, p, a, blockquote, etc.) should be included
  * Globally defined tags (body, main, article, div, etc.) should also be included
  */
-@import './base/animation.css';
 @import './base/reset.css';
 @import './base/typography.css';
 @import './base/utilities.css';
@@ -28,12 +23,7 @@
  * Components are re-usable across the project
  * Components are independent
  */
-@import './components/button.css';
-@import './components/input.css';
-@import './components/label.css';
 @import './components/navbar.css';
-@import './components/table.css';
-@import './components/textarea.css';
 
 /* LAYOUTS 
  * Unique combinations of components and base styles are imported here
@@ -46,6 +36,5 @@
 @import './layouts/grid.css';
 @import './layouts/dropdown-window.css';
 @import './layouts/header.css';
-@import './layouts/html.css';
 @import './layouts/nav.css';
 @import './layouts/sign-ups.css';
