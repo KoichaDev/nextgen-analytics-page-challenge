@@ -6,8 +6,8 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        <ul>
-          <li style={{alignSelf: 'start'}}>
+        <ul className="nav-ul">
+          <li>
             <a href="#">
               <img
                 className="logo"

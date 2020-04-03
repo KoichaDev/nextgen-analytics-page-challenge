@@ -1,18 +1,23 @@
 import React from "react";
 import "./assets/css/core.css";
 
-import NavBar from './components/Navbar/Navbar.component'
+import NavBar from "./components/Navbar/Navbar.component";
+import AnalyticsHeader from "./components/Analytics-header/Analytics-header.component";
 
 function App() {
   return (
     <div class="grid-container">
-      <header class="navbar"><NavBar /></header>
+      <header class="navbar">
+        <NavBar />
+      </header>
+      <div class="analytics-header">
+        <AnalyticsHeader />
+      </div>
       <div class="total-sign-ups">Total Sign ups</div>
       <div class="graph-individuals">Graph Individual</div>
       <div class="dropdown-window"> Dropdown Window</div>
       <div class="graph-companies">Graph Companies</div>
       <div class="latest-signups">latest-signups</div>
-      <div class="analytics-tops">Analytics Tops</div>
       <div class="analytics-bottom">Analytics Bottom</div>
       <div class="graph-menu">Graph Menu</div>
       <div class="aside">Aside</div>

@@ -4,35 +4,32 @@
   background: var(--main-background-color);
   color: var(--primary-text-color);
   grid-area: navbar;
-  padding-top: 1rem;
   border-bottom: 3px solid var(--primary-color);
-  position: relative;
-  overflow: hidden;
+ }
 
-}
-
-.logo {
-}
-
-ul {
+.nav-ul {
   display: flex;;
   justify-content: flex-end;
+  flex-wrap: nowrap;
   list-style: none;
+  margin: 0;
 }
 
-ul li {
+.nav-ul li {
   padding: 0px 2.5rem;
   align-self: center;
 }
 
-li:nth-child(1), 
+.nav-ul li:nth-child(1),
 .logo {
-  margin-right: auto;
   width: 10vw;
-
+  margin-right: auto;
 }
 
-.half-bg {
-  background: yellow;
-  width: 1.7%;
+.nav-ul li:nth-child(5),
+.nav-ul li:nth-child(6),
+.nav-ul li:nth-child(7) {
+  background: var(--primary-color);
+  color: var(--secondary-text-color);
+
 }

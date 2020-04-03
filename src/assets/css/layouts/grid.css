@@ -1,29 +1,28 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 0.2fr 0.5fr 1fr 1fr 0.2fr 1.9fr 0.9fr 1fr 1fr 1fr 0.2fr 1.9fr 1fr 1fr 0.2fr 0.5fr;
-  grid-template-rows: 1fr 1fr 1fr 0.4fr 1.6fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 1fr;
+  grid-template-columns: 0.5fr 1fr 1fr 0.2fr 1.9fr 0.9fr 1fr 1fr 1fr 0.2fr 1.9fr 1fr 1fr 0.2fr 0.5fr;
+  grid-template-rows: 1fr 1fr 0.5fr 1.6fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 1fr;
   grid-template-areas: 
-  "navbar navbar        navbar            navbar         navbar         navbar         navbar         navbar         navbar         navbar              navbar         navbar         navbar        navbar navbar navbar"
-  ".  .  analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops analytics-tops              .            ."
-  ".  .  analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom analytics-bottom . ."
-  ".  .    .     .   .         .            .               .               .               .          .         .          .             .                 .                                                          ."
-  ".  .  graph-menu        graph-menu   graph-menu     graph-menu       graph-menu        graph-menu        graph-menu        graph-menu       graph-menu      graph-menu   graph-menu   graph-menu       .            ."
-  ".  .    .     .   .         .            .               .               .               .          .         .          .             .                 .                                                          ."
-  ".  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
-  ".  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
-  ".  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
-  ".  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
-  ".  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
-  ".  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals .          .             .                .                                              .            ."
-  ".  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . dropdown-window dropdown-window dropdown-window                                        .            ."
-  ".  .  aside aside .         .                 .                 .                .                  .         . dropdown-window dropdown-window dropdown-window                                        .            ."
-  ".  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
-  ".  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
-  ".  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .         .          .             .                                                               .            ."
-  ".  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
-  ".  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
-  ".  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
-  ".  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
-  ".  .    .     .   .         .            .               .               .               .          . latest-signups latest-signups latest-signups                                                     .            ."
-  ".  .    .     .   .         .            .               .               .               .          .         .          .             .                                                               .            .";
+  "navbar        navbar            navbar         navbar         navbar         navbar         navbar         navbar         navbar              navbar         navbar         navbar        navbar navbar navbar"
+  "analytics-header  analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header"
+  "  .    .     .   .         .            .               .               .               .          .         .          .             .                 .                                                          ."
+  "  .  graph-menu        graph-menu   graph-menu     graph-menu       graph-menu        graph-menu        graph-menu        graph-menu       graph-menu      graph-menu   graph-menu   graph-menu       .            ."
+  "  .    .     .   .         .            .               .               .               .          .         .          .             .                 .                                                          ."
+  "  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
+  "  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
+  "  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
+  "  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
+  "  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . total-sign-ups total-sign-ups total-sign-ups                                           .            ."
+  "  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals .          .             .                .                                              .            ."
+  "  .  aside aside . graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . dropdown-window dropdown-window dropdown-window                                        .            ."
+  "  .  aside aside .         .                 .                 .                .                  .         . dropdown-window dropdown-window dropdown-window                                        .            ."
+  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
+  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
+  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .         .          .             .                                                               .            ."
+  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .    .     .   .         .            .               .               .               .          . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .    .     .   .         .            .               .               .               .          .         .          .             .                                                               .            .";
 }

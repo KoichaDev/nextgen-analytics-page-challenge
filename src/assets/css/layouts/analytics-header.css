@@ -1,14 +1,62 @@
-.analytics-tops {
+.analytics-header {
     background: var(--analytics-background-color);
-    grid-area: analytics-tops;
+    grid-area: analytics-header;
 }
 
-.analytics-bottom {
-    background: var(--analytics-background-color);
-    grid-area: analytics-bottom;
+.analytic-ul {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: nowrap;
+   list-style: none;
+   margin: 0;
+   padding: 20px;
+}
+
+select {
+    font-size: 1.2rem;
+    color: var(--secondary-text-color);
+    border: 0;
+    background: transparent;
+}
+
+select:focus {
+    outline: none;
+}
+
+select option {
+    font-size: 1.2rem;
 }
 
 
-    
+
+.analytic-ul li {
+    align-self: center;
+}
+
+.analytics-ul__primary__color {
+    color: var(--primary-color)
+}
+
+.analytics-ul__secondary__color {
+    color: var(--secondary-color);
+}
+
+.analytics-ul__tertiary__color {
+    color: var(--tertiary-color);
+}
+
+small {
+    color: var(--secondary-text-color);
+}
+
+.analytics-ul__total__signups,
+.analytics-ul__last__week,
+.analytics-ul__total__investment,
+.analytics-ul__nok,
+.analytics-ul__average__investment,
+.analytics-ul__nok,
+.analytics-ul__total-exits {
+    font-size: 1.4rem;
+}
 
 
