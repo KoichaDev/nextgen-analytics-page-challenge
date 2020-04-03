@@ -1,0 +1,18 @@
+.analytics-tops {
+    background: yellow;
+    grid-area: analytics-tops;
+}
+
+.analytics-bottom {
+    background: black;
+    grid-area: analytics-bottom;
+}
+
+.graph-menu {
+    background: purple;
+    grid-area: graph-menu;
+}
+
+    
+
+

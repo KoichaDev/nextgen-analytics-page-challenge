@@ -1,3 +1,4 @@
-nav {
-  height: 100vh;
+.navbar {
+  grid-area: navbar;
+  background:green;
 }

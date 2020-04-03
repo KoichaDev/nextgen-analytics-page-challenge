@@ -1,0 +1,9 @@
+.total-sign-ups {
+    background: red;
+    grid-area: total-sign-ups;
+}
+
+.latest-signups {
+    background: green;
+    grid-area: latest-signups;
+}
