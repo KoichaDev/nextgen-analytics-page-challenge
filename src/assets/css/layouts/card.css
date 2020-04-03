@@ -1,0 +1,63 @@
+@media (max-width: 700px) {
+  .headercard {
+    background-color: black;
+    text-align: center;
+    grid-area: headercard;
+  }
+
+  .sushi-dealcard {
+    background-color: red;
+    text-align: center;
+    grid-area: sushi-dealcard;
+  }
+
+  .thai-dealcard {
+    background-color: green;
+    text-align: center;
+    grid-area: thai-dealcard;
+  }
+
+  .sushimenu-card {
+    background-color: pink;
+    text-align: center;
+    grid-area: sushimenu-card;
+  }
+
+  .thaimenu-card {
+    background-color: teal¢;
+    text-align: center;
+    grid-area: thaimenu-card;
+  }
+}
+
+@media (min-width: 700px) {
+  .headercard {
+    background-color: black;
+    text-align: center;
+    grid-area: headercard;
+  }
+
+  .sushi-dealcard {
+    background-color: red;
+    text-align: center;
+    grid-area: sushi-dealcard;
+  }
+
+  .thai-dealcard {
+    background-color: green;
+    text-align: center;
+    grid-area: thai-dealcard;
+  }
+
+  .sushimenu-card {
+    background-color: pink;
+    text-align: center;
+    grid-area: sushimenu-card;
+  }
+
+  .thaimenu-card {
+    background-color: teal¢;
+    text-align: center;
+    grid-area: thaimenu-card;
+  }
+}

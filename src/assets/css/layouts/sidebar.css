@@ -1,0 +1,19 @@
+@media (max-width: 700px) {
+  .sidebar {
+    background-color: black;
+    text-align: center;
+    color: white;
+    grid-area: sidebar;
+    height: 0.5fr;
+  }
+}
+
+@media (min-width: 700px) {
+  .sidebar {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100%;
+    grid-area: sidebar;
+  }
+}

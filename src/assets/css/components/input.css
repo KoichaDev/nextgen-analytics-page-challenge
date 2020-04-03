@@ -1,0 +1,55 @@
+input {
+  text-align: center;
+}
+input.left {
+  text-align: left;
+}
+
+input.left::-webkit-input-placeholder {
+  text-align: left;
+}
+
+input.left::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: left;
+}
+
+input.left:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: left;
+}
+
+input.left:-ms-input-placeholder {
+  text-align: left;
+}
+
+input[type='text'] {
+  background: transparent;
+  border: none;
+}
+
+.input-md {
+  width: 5rem;
+}
+
+.rm-border {
+  border: 0;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}

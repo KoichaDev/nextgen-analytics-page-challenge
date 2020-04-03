@@ -1,0 +1,23 @@
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.add-date:hover {
+  cursor: pointer;
+}
+
+.get-more-notes:hover {
+  cursor: pointer;
+}
+
+.fas.fa-clipboard.fa-2x:hover {
+  cursor: pointer;
+}
+
+.fas.fa-random.fa-2x:hover {
+  cursor: pointer;
+}
+
+.far.fa-flag.fa-2x:hover {
+  cursor: pointer;
+}

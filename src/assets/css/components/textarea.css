@@ -1,0 +1,51 @@
+textarea {
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.comment {
+  resize: none;
+}
+
+textarea:focus {
+  border: 1px solid #007bff;
+}
+
+textarea.left {
+  text-align: left;
+}
+
+textarea.left::-webkit-input-placeholder {
+  text-align: left;
+}
+
+textarea.left::-moz-placeholder {
+  text-align: left;
+}
+
+textarea.left:-ms-input-placeholder {
+  text-align: left;
+}
+
+textarea.focus-middle {
+  text-align: center;
+  text-decoration: blue;
+}
+
+textarea.focus-middle::-webkit-input-placeholder {
+  text-align: center;
+}
+
+textarea.focus-middle::-moz-placeholder {
+  text-align: center;
+}
+
+textarea.focus-middle:-ms-input-placeholder {
+  text-align: center;
+}

@@ -1,0 +1,5 @@
+@import './../abstract/header-variables.css';
+
+header {
+  grid-area: header;
+}
