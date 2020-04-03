@@ -4,3 +4,22 @@
   grid-area: aside;
   background: var(--main-background-color);
 }
+
+.sidebar-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.sidebar-ul li {
+  align-self: center;
+  padding: 1rem;
+}
+
+.sidebar-ul li:nth-child(1) {
+  padding: 1rem;
+  width: 4.5em;
+  height: 4rem;
+  border-radius: 3px;
+  background: var(--analytics-background-color)
+}
