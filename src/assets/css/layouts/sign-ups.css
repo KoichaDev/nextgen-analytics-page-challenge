@@ -1,5 +1,7 @@
+@import './../abstract/color-variables.css';
+
 .total-sign-ups {
-    background: red;
+    background: var(--analytics-background-color);
     grid-area: total-sign-ups;
 }
 

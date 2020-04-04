@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Doughnut, Line } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 
 class GraphLine extends Component {
   state = {

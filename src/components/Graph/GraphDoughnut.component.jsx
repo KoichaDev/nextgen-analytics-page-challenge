@@ -1,14 +1,9 @@
-import React, { Component } from "react";
-import { Doughnut, Line } from "react-chartjs-2";
+import React from "react";
+import { Doughnut } from "react-chartjs-2";
 
-class GraphDoughNut extends Component {
-  state = {
-    chartData: {},
-  };
-
-  getChartData = () => {
-    // Usually Ajax call here when fetching data from an API
-    this.setState({
+const getChartData = () => {
+  // Usually Ajax call here when fetching data from an API
+  /* this.setState({
       chartData: {
         labels: [
           "Jun'19",
@@ -23,46 +18,23 @@ class GraphDoughNut extends Component {
           {
             label: this.props.label,
             data: [0, 9, 3, 5, 2.5, 2.7, 2, 9.3, 7],
-            backgroundColor: ["#1A3E55"],
+            backgroundColor: [this.props.bgColor],
             borderWidth: 0,
             borderColor: "#4effa1",
           },
         ],
       },
-    });
-  };
+    }); */
+};
 
-  componentWillMount() {
-    this.getChartData();
-  }
-
-  static defaultProps = {
-    displayTitle: true,
-    displayLegend: true,
-    legendPosition: "right",
-  };
-
-  render() {
+const GraphDoughNut = ({dataStateIndividual, dataStateCompanies}) => {
+   
     return (
       <div className="chart">
-        <Doughnut
-          data={this.state.chartData}
-          options={{
-            title: {
-              display: this.props.displayTitle,
-              text: this.props.title,
-              fontSize: 25,
-            },
-            legend: {
-              display: this.props.displayLegend,
-              label: this.props.displayLabel,
-              position: this.props.legendPosition,
-            },
-          }}
-        />
+        <Doughnut data={[dataStateIndividual, dataStateCompanies]} />
       </div>
     );
-  }
+  
 }
 
 export default GraphDoughNut;

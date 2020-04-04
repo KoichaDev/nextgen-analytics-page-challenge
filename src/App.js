@@ -40,7 +40,14 @@ function App() {
           bgColor="#251E42"
         />
       </div>
-      <div className="total-sign-ups">Total Sign ups</div>
+      <div className="total-sign-ups">
+        <GraphDoughNut
+          title="Total Signups"
+          label="Companies"
+          displayLegend={false}
+          bgColor="#251E42"
+        />
+      </div>
       <div className="dropdown-window"> Dropdown Window</div>
       <div className="latest-signups">latest-signups</div>
       <div className="analytics-bottom">Analytics Bottom</div>
