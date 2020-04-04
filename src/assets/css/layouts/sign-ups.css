@@ -3,6 +3,7 @@
 .total-sign-ups {
   background: var(--analytics-background-color);
   grid-area: total-sign-ups;
+  border-radius: 10px;
 }
 
 .latest-signups {

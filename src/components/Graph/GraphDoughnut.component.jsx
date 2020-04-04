@@ -14,11 +14,11 @@ class GraphDoughNut extends Component {
         datasets: [
           {
             data: [364, 284],
-            backgroundColor: ["#1CFBE4", "#FF55EE", ],
-            hoverBackgroundColor: ["#1CFBE4", "#FF55EE"],
+            backgroundColor: ["#ff56ee", "#1bfbe4"],
+            hoverBackgroundColor: ["#ff56ee", "#1bfbe4"],
+            borderWidth: 0,
           },
         ],
-
       },
     });
   };
@@ -45,6 +45,7 @@ class GraphDoughNut extends Component {
           options={{
             responsive: true,
             maintainAspectRatio: true,
+            cutoutPercentage: 85,
             title: {
               display: this.props.displayTitle,
               text: this.props.title,
