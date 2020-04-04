@@ -9,3 +9,8 @@
     background: green;
     grid-area: latest-signups;
 }
+
+.box {
+    margin-right:8px;
+    border: 2px solid var(--primary-color);
+}

@@ -8,6 +8,7 @@ import GraphMenu from "./components/Graph-menu/Graph-menu.component";
 import SideBar from "./components/Sidebar/Sidebar.component";
 import GraphLine from "./components/Graph/GraphLine.component";
 import GraphDoughNut from "./components/Graph/GraphDoughnut.component";
+import DropDown from "./components/Dropdown/Dropdown.component";
 
 function App() {
   return (
@@ -48,7 +49,9 @@ function App() {
           bgColor="#1D1B39"
         />
       </div>
-      <div className="dropdown-window"> Dropdown Window</div>
+      <div className="dropdown-window">
+        <DropDown />
+      </div>
       <div className="latest-signups">latest-signups</div>
       <div className="analytics-bottom">Analytics Bottom</div>
     </div>
