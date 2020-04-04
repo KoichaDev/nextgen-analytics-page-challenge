@@ -32,12 +32,3 @@
 
 }
 
-.graph-individuals {
-    background: var(--analytics-background-color);
-    grid-area: graph-individuals;
-}
-
-.graph-companies {
-    background: purple;
-    grid-area: graph-companies;
-}

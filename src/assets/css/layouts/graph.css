@@ -1,5 +1,16 @@
 @import './../abstract/color-variables.css';
 
-.graph-individuals {
+.graph-individuals,
+.graph-companies {
     border-radius: 0.5rem;
+}
+
+.graph-individuals {
+    background: var(--analytics-background-color);
+    grid-area: graph-individuals;
+}
+
+.graph-companies {
+    background: var(--analytics-background-color);
+    grid-area: graph-companies;
 }

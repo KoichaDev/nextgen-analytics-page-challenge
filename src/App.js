@@ -6,7 +6,8 @@ import NavBar from "./components/Navbar/Navbar.component";
 import AnalyticsHeader from "./components/Analytics-header/Analytics-header.component";
 import GraphMenu from "./components/Graph-menu/Graph-menu.component";
 import SideBar from "./components/Sidebar/Sidebar.component";
-import Graph from './components/Graph/Graph.component';
+import GraphLine from "./components/Graph/GraphLine.component";
+import GraphDoughNut from "./components/Graph/GraphDoughnut.component";
 
 function App() {
   return (
@@ -24,11 +25,23 @@ function App() {
         <SideBar />
       </div>
       <div className="graph-individuals">
-        <Graph />
+        <GraphLine
+          title="Individuals"
+          label="Individuals"
+          displayLegend={false}
+          bgColor="#1A3E55"
+        />
+      </div>
+      <div className="graph-companies">
+        <GraphLine
+          title="Companies"
+          label="Companies"
+          displayLegend={false}
+          bgColor="#251E42"
+        />
       </div>
       <div className="total-sign-ups">Total Sign ups</div>
       <div className="dropdown-window"> Dropdown Window</div>
-      <div className="graph-companies">Graph Companies</div>
       <div className="latest-signups">latest-signups</div>
       <div className="analytics-bottom">Analytics Bottom</div>
     </div>
