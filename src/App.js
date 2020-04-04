@@ -6,8 +6,8 @@ import NavBar from "./components/Navbar/Navbar.component";
 import AnalyticsHeader from "./components/Analytics-header/Analytics-header.component";
 import GraphMenu from "./components/Graph-menu/Graph-menu.component";
 import SideBar from "./components/Sidebar/Sidebar.component";
-import GraphLine from "./components/Graph/Graph-line.component";
-import GraphDoughNut from "./components/Graph/Graph-doughnut.component";
+import GraphLine from "./components/Graph/GraphLine.component";
+import GraphDoughNut from "./components/Graph/GraphDoughnut.component";
 
 function App() {
   return (
@@ -25,22 +25,27 @@ function App() {
         <SideBar />
       </div>
       <div className="graph-individuals">
-        <GraphLine data="individualData" />
+        <GraphLine
+          title="Individuals"
+          label="Companies"
+          displayLegend={false}
+          bgColor="#1A2E4B"
+        />
       </div>
       <div className="graph-companies">
-        {/*  <GraphLine
+        <GraphLine
           title="Companies"
           label="Companies"
           displayLegend={false}
           bgColor="#251E42"
-        /> */}
+        />
       </div>
       <div className="total-sign-ups">
         <GraphDoughNut
           title="Total Signups"
           label="Companies"
-          displayLegend={false}
-          bgColor="#251E42"
+          displayLegend={true}
+          bgColor="#1D1B39"
         />
       </div>
       <div className="dropdown-window"> Dropdown Window</div>
