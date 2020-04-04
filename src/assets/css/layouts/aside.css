@@ -1,4 +1,4 @@
-@import './../abstract/color-variables.css';
+@import "./../abstract/color-variables.css";
 
 .aside {
   grid-area: aside;
@@ -13,13 +13,18 @@
 
 .sidebar-ul li {
   align-self: center;
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.sidebar-ul > li a img {
+  width: 30px;
 }
 
 .sidebar-ul li:nth-child(1) {
+  margin-bottom: 2rem;
   padding: 1rem;
   width: 4.5em;
   height: 4rem;
   border-radius: 3px;
-  background: var(--analytics-background-color)
+  background: var(--analytics-background-color);
 }
