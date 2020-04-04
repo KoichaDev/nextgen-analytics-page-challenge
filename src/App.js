@@ -9,6 +9,7 @@ import SideBar from "./components/Sidebar/Sidebar.component";
 import GraphLine from "./components/Graph/GraphLine.component";
 import GraphDoughNut from "./components/Graph/GraphDoughnut.component";
 import DropDown from "./components/Dropdown/Dropdown.component";
+import SignupNewsFeed from './components/Signup-news-feed/Signup-news-feed.component';
 
 function App() {
   return (
@@ -52,8 +53,9 @@ function App() {
       <div className="dropdown-window">
         <DropDown />
       </div>
-      <div className="latest-signups">latest-signups</div>
-      <div className="analytics-bottom">Analytics Bottom</div>
+      <div className="latest-signups">
+        <SignupNewsFeed />
+      </div>
     </div>
 
     /* <div className="grid-container">
