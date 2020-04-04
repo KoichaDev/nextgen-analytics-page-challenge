@@ -1,16 +1,17 @@
 import React, { Component } from "react";
-import GraphLine from './GraphLine.component'
-import GraphDoughNut from './GraphDoughnut.component';
+import GraphLine from './Graph-line.component'
+import GraphDoughNut from './Graph-doughnut.component';
 
-class GraphState extends Component {
+class GraphContainer extends Component {
   state = {
-    chartData: {},
+    chartDataLine: {},
+    chartDataCompanies: {},
   };
 
   getIndividualData = () => {
     // Usually Ajax call here when fetching data from an API
     this.setState({
-      chartData: {
+      chartDataLine: {
         labels: [
           "Jun'19",
           "Jul'10",
@@ -22,7 +23,7 @@ class GraphState extends Component {
         ],
         datasets: [
           {
-            label: this.props.label,
+            label: 'Individuals',
             data: [0, 9, 3, 5, 2.5, 2.7, 2, 9.3, 7],
             backgroundColor: this.props.bgColor,
             borderWidth: 0,
@@ -36,7 +37,7 @@ class GraphState extends Component {
   getCompaniesData = () => {
     // Usually Ajax call here when fetching data from an API
     this.setState({
-      chartData: {
+      chartDataCompanies: {
         labels: [
           "Jun'19",
           "Jul'10",
@@ -60,18 +61,19 @@ class GraphState extends Component {
   };
 
   componentWillMount() {
-    this.getChartData();
-    this.getCompaniesData();
+    this.getIndividualData();
+    /* this.getCompaniesData(); */
   }
 
   render() {
+    const { chartDataLine } = this.state;
+
     return (
       <div className="chart">
-        <GraphLine data={this.state.chartData} />
-        <GraphLine data={this.state.chartData} />
+        <GraphLine chartDataLine={chartDataLine} />
       </div>
     );
   }
 }
 
-export default GraphState;
+export default GraphContainer;
