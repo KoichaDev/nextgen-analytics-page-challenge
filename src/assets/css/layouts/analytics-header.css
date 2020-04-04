@@ -1,3 +1,5 @@
+@import './../abstract/color-variables.css';
+
 .analytics-header {
     background: var(--analytics-background-color);
     grid-area: analytics-header;
@@ -26,8 +28,6 @@ select:focus {
 select option {
     font-size: 1.2rem;
 }
-
-
 
 .analytic-ul li {
     align-self: center;

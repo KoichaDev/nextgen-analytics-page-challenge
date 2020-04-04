@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr 0.2fr 1.9fr 0.9fr 1fr 1fr 1fr 0.2fr 1.9fr 1fr 1fr 0.2fr 0.5fr;
-  grid-template-rows: 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 0.5fr 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 1fr;
   grid-template-areas: 
   "navbar        navbar            navbar         navbar         navbar         navbar         navbar         navbar         navbar              navbar         navbar         navbar        navbar navbar navbar"
   "analytics-header  analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header analytics-header"
@@ -16,13 +16,13 @@
   "  .  aside aside graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals .          .             .                .                                              .            ."
   "  .  aside aside graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals graph-individuals . dropdown-window dropdown-window dropdown-window                                        .            ."
   "  .  aside aside .         .                 .                 .                .                  .         . dropdown-window dropdown-window dropdown-window                                        .            ."
-  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
-  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
-  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies .         .          .             .                                                               .            ."
-  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
-  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
-  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
-  "  .  aside aside . graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .  aside aside graph-companies graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
+  "  .  aside aside graph-companies graph-companies graph-companies graph-companies graph-companies graph-companies .           dropdown-window dropdown-window dropdown-window                                        .            ."
+  "  .  aside aside graph-companies graph-companies graph-companies graph-companies graph-companies graph-companies .         .          .             .                                                               .            ."
+  "  .  aside aside graph-companies graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .  aside aside graph-companies graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .  aside aside graph-companies graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
+  "  .  aside aside graph-companies graph-companies graph-companies graph-companies graph-companies graph-companies . latest-signups latest-signups latest-signups                                                     .            ."
   "  .    .     .   .         .            .               .               .               .          . latest-signups latest-signups latest-signups                                                     .            ."
   "  .    .     .   .         .            .               .               .               .          .         .          .             .                                                               .            .";
 }

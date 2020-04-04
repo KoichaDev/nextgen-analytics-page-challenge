@@ -32,8 +32,8 @@ const AnalyticsHeader = () => {
             <small>Average Investments</small>
           </p>
           <p>
-            <span class="analytics-ul__tertiary__color analytics-ul__nok">NOK</span>{" "}
-            <span class="analytics-ul__tertiary__color analytics-ul__average__investment">345,565</span>
+            <span className="analytics-ul__tertiary__color analytics-ul__nok">NOK</span>{" "}
+            <span className="analytics-ul__tertiary__color analytics-ul__average__investment">345,565</span>
           </p>
         </li>
         <li>

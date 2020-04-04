@@ -33,7 +33,7 @@
 }
 
 .graph-individuals {
-    background: teal;
+    background: var(--analytics-background-color);
     grid-area: graph-individuals;
 }
 

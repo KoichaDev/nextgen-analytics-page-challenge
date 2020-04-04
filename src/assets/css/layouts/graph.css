@@ -1,0 +1,5 @@
+@import './../abstract/color-variables.css';
+
+.graph-individuals {
+    border-radius: 0.5rem;
+}
