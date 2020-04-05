@@ -9,16 +9,36 @@ h1 {
   text-align: center;
 }
 
-/* NAVBAR Section */
+/* Select Elements */
+select {
+  font-size: 1rem;
+}
 
+select option {
+  font-size: 1rem;
+}
+
+/* NAVBAR Section */
 .navbar p {
-  color: var(--secondary-text-color) !important;
+  color: var(--secondary-text-color);
   font-family: Montserrat-BoldBlack;
 }
 
 .grid-navbar-container__navbar__right p,
 .grid-navbar-container__navbar__right small {
-  color: var(--tertiary-text-color) !important;
+  color: var(--tertiary-text-color);
 }
 
+/* ANALYTICS Header */
+.analytic-ul {
+  font-family: Montserrat-Regular;
+  font-weight: bold;
+}
 
+.analytic-ul ul li p {
+  font-family: Montserrat-BoldBlack;
+}
+
+.analytics-ul__nok {
+  font-weight: 100;
+}
