@@ -7,11 +7,12 @@
 
 .analytic-ul {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    flex-wrap: nowrap;
    list-style: none;
    margin: 0;
-   padding: 20px;
+   padding-top: 20px;
+   padding-right: 12px;
 }
 
 select {
