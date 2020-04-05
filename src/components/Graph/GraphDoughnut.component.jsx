@@ -33,11 +33,9 @@ class GraphDoughNut extends Component {
     legendPosition: "right",
   };
 
-  
-
   render() {
     const { chartData } = this.state;
-    
+
     return (
       <div className="chart">
         <Doughnut

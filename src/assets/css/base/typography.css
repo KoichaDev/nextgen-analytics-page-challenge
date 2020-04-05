@@ -32,6 +32,7 @@ select option {
 /* ANALYTICS Header */
 .analytic-ul {
   font-family: Montserrat-Regular;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 
@@ -41,4 +42,29 @@ select option {
 
 .analytics-ul__nok {
   font-weight: 100;
+}
+
+/* Graph Menu */
+
+.graph-menu-ul {
+  font-family: Montserrat-SemiBold;
+}
+
+.graph-menu-ul__li__active {
+  color: var(--quaternary-color);
+  font-weight: bold;
+}
+
+.graph-menu-ul li {
+  color: var(--secondary-text-color);
+}
+
+/* Graph Doughnut */
+
+.graph-doughnut__h1 {
+  font-size: 1.5rem;
+}
+
+.graph-doughnut__p {
+  font-family: 'Montserrat-ExtraBold';
 }

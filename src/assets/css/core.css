@@ -24,9 +24,9 @@
 @import './layouts/aside.css';
 @import './layouts/body.css';
 @import './layouts/dropdown-window.css';
-@import './layouts/graph.css';
+@import './layouts/graph-doughnut.css';
+@import './layouts/graph-line.css';
 @import './layouts/graph-menu.css';
 @import './layouts/grid.css';
 @import './layouts/header.css';
 @import './layouts/nav.css';
-@import './layouts/sign-ups.css';

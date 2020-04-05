@@ -42,9 +42,9 @@ function App() {
           bgColor="#251E42"
         />
       </div>
-      <div className="total-sign-ups">
-        <h1 className="total-sign-ups__h1">Total Signups</h1>
-        <p className="total-sign-ups__p">64B</p>
+      <div className="graph-doughnut">
+        <h1 className="graph-doughnut__h1">Total Signups</h1>
+        <p className="graph-doughnut__p">648</p>
         <GraphDoughNut
           title="Total Signups"
           label="Companies"
@@ -59,26 +59,6 @@ function App() {
         <SignupNewsFeed />
       </div>
     </div>
-
-    /* <div className="grid-container">
-      <aside>Aside</aside>
-      <header>
-        <nav>Navbar</nav>
-        <div class="analytics-tops">Analtyics tops</div>
-        <div class="analytics-bottom">Analytics Bottom</div>
-        <menu>
-          <div class="graph-menu">Graph Menu</div>
-        </menu>
-      </header>
-      <main>
-      <div class="graph-individuals">Graph Individuals</div>
-      <div class="graph-companies">Graph Companies</div>
-      <div class="total-sign-ups">Total Sign Ups</div>
-      <div class="dropdown-window">Dropdown Window</div>
-      <div class="latest-signups">Latest Signups</div>
-
-      </main>
-    </div> */
   );
 }
 

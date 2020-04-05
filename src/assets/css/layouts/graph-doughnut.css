@@ -1,8 +1,8 @@
 @import "./../abstract/color-variables.css";
 
-.total-sign-ups {
+.graph-doughnut {
   background: var(--analytics-background-color);
-  grid-area: total-sign-ups;
+  grid-area: graph-doughnut;
   border-radius: 10px;
   padding-top: 2.5rem;
 }
@@ -12,19 +12,19 @@
   grid-area: latest-signups;
 }
 
-.total-sign-ups__h1 {
+.graph-doughnut__h1 {
   position: absolute;
-  top: 25rem;
+  top: 23rem;
   right: 6rem;
   color: var(--secondary-text-color);
   text-align: right;
   padding-right: 2rem;
 }
 
-.total-sign-ups__p {
+.graph-doughnut__p {
   position: absolute;
-  top: 29rem;
-  right: 27.5rem;
+  top: 27.5rem;
+  right: 28rem;
   font-size: 4rem;
   color: var(--primary-text-color);
 
