@@ -28,7 +28,7 @@ class GraphDoughNut extends Component {
   }
 
   static defaultProps = {
-    displayTitle: true,
+    displayTitle: false,
     displayLegend: true,
     legendPosition: "right",
   };

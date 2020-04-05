@@ -43,6 +43,8 @@ function App() {
         />
       </div>
       <div className="total-sign-ups">
+        <h1 className="total-sign-ups__h1">Total Signups</h1>
+        <p className="total-sign-ups__p">64B</p>
         <GraphDoughNut
           title="Total Signups"
           label="Companies"
