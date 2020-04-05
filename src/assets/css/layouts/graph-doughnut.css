@@ -3,13 +3,7 @@
 .graph-doughnut {
   background: var(--analytics-background-color);
   grid-area: graph-doughnut;
-  border-radius: 10px;
   padding-top: 2.5rem;
-}
-
-.latest-signups {
-  background: var(--analytics-background-color);
-  grid-area: latest-signups;
 }
 
 .graph-doughnut__h1 {
@@ -27,5 +21,4 @@
   right: 28rem;
   font-size: 4rem;
   color: var(--primary-text-color);
-
 }

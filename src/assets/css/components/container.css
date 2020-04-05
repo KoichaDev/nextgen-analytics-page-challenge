@@ -1,0 +1,10 @@
+.navbar,
+.analytics-header,
+.aside,
+.graph-individuals,
+.graph-companies,
+.graph-doughnut,
+.dropdown-window,
+.latest-signups {
+    border-radius: 10px;
+}

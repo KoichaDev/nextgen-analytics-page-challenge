@@ -2,7 +2,6 @@
 
 .dropdown-window {
   background: var(--analytics-background-color);
-  border-radius: 10px;
   grid-area: dropdown-window;
 }
 .dropdown-menu-ul {
