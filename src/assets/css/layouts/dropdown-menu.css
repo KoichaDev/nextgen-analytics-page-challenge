@@ -5,26 +5,20 @@
     border-radius: 10px;
     grid-area: dropdown-window;
 }
-.dropdown-ul {
+.dropdown-menu-ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    color: var(--secondary-text-color);
 }
 
-.dropdown-ul li {
+.dropdown-menu-ul li {
     align-self: baseline;
 }
 
-.dropdown-ul__text {
+.dropdown-menu-ul__text {
     font-size: 1.1rem;
 }
 
-.dropdown-ul--font {
-    color: var(--tertiary-color);
-    font-weight: bold;
-}
-
-.dropdown-ul__select {
+.dropdown-menu-ul__select {
     font-size: 1.1rem;
 }

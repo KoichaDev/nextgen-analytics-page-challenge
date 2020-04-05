@@ -1,6 +1,6 @@
 @import "./../abstract/color-variables.css";
 
-.dropdown-ul__vertical-line-green,
+.dropdown-menu-ul__vertical-line-green,
 .grid-body-container-left__vertical-line-green {
   margin-right: 8px;
   border: 2px solid var(--primary-color);

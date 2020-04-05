@@ -8,7 +8,7 @@ import GraphMenu from "./components/Graph-menu/Graph-menu.component";
 import SideBar from "./components/Sidebar/Sidebar.component";
 import GraphLine from "./components/Graph/GraphLine.component";
 import GraphDoughNut from "./components/Graph/GraphDoughnut.component";
-import DropDown from "./components/Dropdown/Dropdown.component";
+import DropDown from "./components/Dropdown/Dropdown-menu.component";
 import SignupNewsFeed from './components/Signup-news-feed/Signup-news-feed.component';
 
 function App() {

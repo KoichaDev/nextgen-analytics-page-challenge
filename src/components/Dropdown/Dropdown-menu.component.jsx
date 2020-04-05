@@ -2,24 +2,24 @@ import React from "react";
 
 const DropDown = () => {
   return (
-    <ul className="dropdown-ul">
+    <ul className="dropdown-menu-ul">
       <li>
-        <p className="dropdown-ul__text">
-          <span class="dropdown-ul__vertical-line-green" /> By Gender
+        <p className="dropdown-menu-ul__text">
+          <span class="dropdown-menu-ul__vertical-line-green" /> By Gender
         </p>
       </li>
       <li>
-        <select className="dropdown-ul__select">
+        <select className="dropdown-menu-ul__select">
           <option value="female">Female</option>
         </select>
       </li>
       <li>
-        <select className="dropdown-ul__select">
+        <select className="dropdown-menu-ul__select">
           <option value="individuals">Individuals</option>
         </select>
       </li>
       <li>
-        <p className="dropdown-ul__text dropdown-ul--font">102</p>
+        <p className="dropdown-menu-ul__text dropdown-menu-ul--font">102</p>
       </li>
     </ul>
   );
