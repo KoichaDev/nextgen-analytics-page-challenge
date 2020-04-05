@@ -6,17 +6,5 @@ p,
 h1,
 h3 {
   margin: var(--margin-zero);
-  text-align: center;
 }
 
-p {
-  font-size: var(--p-font-size);
-}
-
-h1 {
-  font-size: var(--h1-font-size);
-}
-
-h3 {
-  font-size: var(--h2-font-size);
-}
