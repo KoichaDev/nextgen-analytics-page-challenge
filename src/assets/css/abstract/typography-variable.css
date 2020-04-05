@@ -2,7 +2,7 @@
   src: url('../../fonts/Montserrat/Montserrat-Black.ttf');
 }@font-face {
  src: url(/src/assets/fonts/Montserrat/Montserrat-Black.ttf);
- font-family: montserrat-black;
+ font-family: Montserrat-black;
 }
 
 @font-face {
@@ -12,7 +12,7 @@
 
 @font-face {
  src: url(/src/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf);
- font-family: montserrat-BoldBlack;
+ font-family: Montserrat-BoldBlack;
 }
 
 @font-face {

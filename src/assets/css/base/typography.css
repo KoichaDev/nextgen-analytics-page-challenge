@@ -1,10 +1,24 @@
-@import './../abstract/typography-variable.css';
+@import "./../abstract/color-variables.css";
+@import "./../abstract/typography-variable.css";
 
 html,
 body,
 p,
-h1,
-h3 {
+h1 {
   margin: var(--margin-zero);
+  text-align: center;
 }
+
+/* NAVBAR Section */
+
+.navbar p {
+  color: var(--secondary-text-color) !important;
+  font-family: Montserrat-BoldBlack;
+}
+
+.grid-navbar-container__navbar__right p,
+.grid-navbar-container__navbar__right small {
+  color: var(--tertiary-text-color) !important;
+}
+
 
