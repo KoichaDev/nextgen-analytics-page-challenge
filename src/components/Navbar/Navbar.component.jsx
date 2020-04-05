@@ -16,9 +16,15 @@ const NavBar = () => {
               />
             </a>
           </li>
-          <li>Account</li>
-          <li>Charts</li>
-          <li>Help</li>
+          <li>
+            <p>Account</p>
+          </li>
+          <li>
+            <p>Charts</p>
+          </li>
+          <li>
+            <p>Help</p>
+          </li>
           <li>
             <img src={Avatar} alt="Avatar" />
           </li>
