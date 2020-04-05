@@ -30,16 +30,6 @@
 
 }
 
-.box-green {
-  margin-right: 8px;
-  border: 2px solid var(--primary-color);
-}
-
-.box-purple {
-  margin-right: 8px;
-  border: 2px solid var(--secondary-color);
-}
-
 .grid-header-container {
   display: grid;
   grid-template-columns: 1fr 1fr;

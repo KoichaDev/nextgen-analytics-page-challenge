@@ -1,0 +1,12 @@
+@import "./../abstract/color-variables.css";
+
+.dropdown-ul__vertical-line-green,
+.grid-body-container-left__vertical-line-green {
+  margin-right: 8px;
+  border: 2px solid var(--primary-color);
+}
+
+.grid-body-container-right__vertical-line-purple {
+  margin-right: 8px;
+  border: 2px solid var(--secondary-color);
+}

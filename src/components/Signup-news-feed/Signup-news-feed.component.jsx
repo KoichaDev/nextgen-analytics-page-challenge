@@ -17,19 +17,19 @@ const SignupNewsFeed = () => {
           <ul>
             <li>
               <p>
-                <span class="box-green" />
+                <span class="grid-body-container-left__vertical-line-green" />
                 David Hansen
               </p>
             </li>
             <li>
               <p>
-                <span class="box-purple" />
+                <span class="grid-body-container-right__vertical-line-purple" />
                 Shopify
               </p>
             </li>
             <li>
               <p>
-                <span class="box-purple" />
+                <span class="grid-body-container-right__vertical-line-purple" />
                 Arvid, Realtree AB
               </p>
             </li>

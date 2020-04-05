@@ -5,7 +5,7 @@ const DropDown = () => {
     <ul className="dropdown-ul">
       <li>
         <p className="dropdown-ul__text">
-          <span class="box-green" /> By Gender
+          <span class="dropdown-ul__vertical-line-green" /> By Gender
         </p>
       </li>
       <li>
