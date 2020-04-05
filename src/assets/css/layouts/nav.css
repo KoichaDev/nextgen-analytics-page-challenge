@@ -1,14 +1,14 @@
-@import './../abstract/color-variables.css';
+@import "./../abstract/color-variables.css";
 
 .navbar {
   background: var(--main-background-color);
   color: var(--primary-text-color);
   grid-area: navbar;
   border-bottom: 3px solid var(--primary-color);
- }
+}
 
 .nav-ul {
-  display: flex;;
+  display: flex;
   justify-content: flex-end;
   flex-wrap: nowrap;
   list-style: none;
@@ -22,14 +22,31 @@
 
 .nav-ul li:nth-child(1),
 .logo {
-  width: 10vw;
+  width: 8vw;
   margin-right: auto;
+  margin-left: 1.3rem;
 }
 
 .nav-ul li:nth-child(5),
 .nav-ul li:nth-child(6),
 .nav-ul li:nth-child(7) {
+  height: 70px;
   background: var(--primary-color);
   color: var(--secondary-text-color);
+}
 
+.nav-ul li:nth-child(5) img {
+  padding-top: 9px;
+}
+
+.nav-ul li:nth-child(5) {
+}
+
+.nav-ul li:nth-child(5) p,
+.nav-ul li:nth-child(6) p {
+  padding-top: 24px;
+}
+
+.nav-ul li:nth-child(7) p {
+  padding-top: 16px;
 }

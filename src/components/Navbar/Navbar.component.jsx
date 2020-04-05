@@ -28,8 +28,9 @@ const NavBar = () => {
           <li>
             <p>
               <small>17-02.2020</small>
+              <br />
+              2.45 PM
             </p>
-            <p>2.45 PM</p>
           </li>
         </ul>
       </nav>
