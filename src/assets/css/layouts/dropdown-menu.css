@@ -1,24 +1,29 @@
-@import './../abstract/color-variables.css';
+@import "./../abstract/color-variables.css";
 
 .dropdown-window {
-    background: var(--analytics-background-color);
-    border-radius: 10px;
-    grid-area: dropdown-window;
+  background: var(--analytics-background-color);
+  border-radius: 10px;
+  grid-area: dropdown-window;
 }
 .dropdown-menu-ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
 .dropdown-menu-ul li {
-    align-self: baseline;
+  align-self: center;
+}
+
+.dropdown-menu-ul li:nth-child(1),
+.dropdown-menu-ul li:nth-child(4) {
+    padding-bottom: 4px;
 }
 
 .dropdown-menu-ul__text {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .dropdown-menu-ul__select {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
